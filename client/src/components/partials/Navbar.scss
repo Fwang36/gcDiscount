@@ -1,0 +1,16 @@
+nav {
+  display:flex;
+  border-style: solid;
+  padding-left: 1em;
+}
+
+.navbar ul {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right:1em;
+
+  li {
+    padding:.5em;
+  }
+}
+

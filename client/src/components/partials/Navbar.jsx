@@ -11,7 +11,10 @@ export default function Navbar(props) {
         <a className="nav-link" href="#">View Our Products</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact Us</a>
+        <a className="nav-link" href="/contact">Contact Us</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Admin</a>
       </li>
       </ul>
 </nav>

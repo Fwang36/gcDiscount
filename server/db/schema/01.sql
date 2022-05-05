@@ -9,7 +9,8 @@ CREATE TABLE products (
   sku VARCHAR(255) NOT NULL,
   dimensions VARCHAR(255),
   was INTEGER,
-  price INTEGER
+  price INTEGER,
+  feature BOOLEAN DEFAULT false
 );
 
 CREATE TABLE categories (

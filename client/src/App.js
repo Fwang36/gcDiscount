@@ -6,7 +6,7 @@ import useApplicationData from './hooks/useApplicationData';
 
 import Contact from './components/Contact/Index';
 import CategoryList from './components/CategoriesList/CategoryList';
-
+import FeaturedItemsList from './components/FeaturedList/FeaturedItemsList';
 
 function App() {
 
@@ -18,8 +18,12 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      {state ? 
+      {state.categories ? 
       <CategoryList state={state}/>
+      : null}
+
+      {state.features ?
+      <FeaturedItemsList state={state} />
       : null}
     </div>
   );

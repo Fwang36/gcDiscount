@@ -5,18 +5,18 @@ export default function useApplicationData(props) {
   
   const [state, setState] = useState({
   
-    categories: {}
-
   })
 
   useEffect(() => {
     Promise.all([
       axios.get('/api/categories'),
+      axios.get('/api/feature')
     ])
     .then((all) => {
       setState(prev => ({
         ...prev,
         categories: all[0].data,
+        features: all[1].data
       }))
     })
   }, [])

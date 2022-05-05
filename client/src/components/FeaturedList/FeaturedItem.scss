@@ -1,0 +1,25 @@
+.featured-item-container {
+  border-style: dashed;
+  width: 33%;
+  margin: 1em;
+  max-height: fit-content;
+
+  img {
+    width: 50%;
+  }
+
+  .featured-item-pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .was-price {
+      text-decoration: line-through red;
+      font-size: 1.2em;
+    }
+
+    .now-price {
+      font-size: 2em;
+    }
+  }
+}

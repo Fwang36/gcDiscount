@@ -1,7 +1,7 @@
 import './CategoryList.scss'
 import CategoryListItem from './CategoryListItem'
 export default function CategoryList(props) {
-
+  console.log("prop",props.state)
   const categoriesArray = props.state.categories
   const mappedCategories = categoriesArray.map(category => {
     

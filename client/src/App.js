@@ -8,6 +8,7 @@ import Contact from './components/Contact/Index';
 import CategoryList from './components/CategoriesList/CategoryList';
 import FeaturedItemsList from './components/FeaturedList/FeaturedItemsList';
 import TextBoxItem from './components/TextBoxes/TextBoxItem';
+import HomePageSlide from './components/HomepageSlide/HomePageSlide';
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
+      <HomePageSlide />
+
       {state.features ?
       <FeaturedItemsList state={state} />
       : null}
@@ -28,7 +31,7 @@ function App() {
       : null}
 
       <TextBoxItem />
-      
+
     </main>
   );
 }

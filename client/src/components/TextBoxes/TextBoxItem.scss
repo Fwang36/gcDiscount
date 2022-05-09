@@ -1,4 +1,12 @@
 .text-box-container {
   display:flex;
   justify-content: space-around;
+  height: 20em;
+}
+
+.text-box-item {
+  display: flex;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: space-around;
 }

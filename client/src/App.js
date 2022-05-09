@@ -26,11 +26,12 @@ function App() {
       <FeaturedItemsList state={state} />
       : null}
 
+      <TextBoxItem />
+      
       {state.categories ? 
       <CategoryList state={state}/>
       : null}
 
-      <TextBoxItem />
 
     </main>
   );

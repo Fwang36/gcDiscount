@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+$logo-font: 'Josefin Sans', sans-serif;
+
 nav {
   display:flex;
   border-style: solid;
   padding-left: 1em;
+  position: absolute
 }
 
 .navbar ul {
@@ -11,6 +16,16 @@ nav {
 
   li {
     padding:.5em;
+    font-size: large;
   }
 }
 
+.navbar-brand {
+  font-family: $logo-font;
+  font-size: xx-large;
+}
+
+.navbar-light .navbar-brand {
+
+  color:rgb(238, 81, 81)
+}

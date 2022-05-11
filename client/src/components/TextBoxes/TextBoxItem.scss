@@ -1,12 +1,20 @@
 .text-box-container {
   display:flex;
   justify-content: space-around;
-  height: 20em;
+  height: 15em;
 }
 
 .text-box-item {
+  margin:1em;
+  border-style: solid;
   display: flex;
-  font-size: xx-large;
   align-items: center;
   justify-content: space-around;
+  border-radius: 20em;
+  width:33%;
+
+  div {
+    font-size:xx-large;
+
+  }
 }

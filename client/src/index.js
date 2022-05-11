@@ -2,18 +2,25 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Nav from './components/partials/Navbar';
+import Contact from './components/Contact/Index';
+
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
     <BrowserRouter>
-    <App />
+    <Nav />
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+    
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -16,10 +16,6 @@ function App() {
 
   return (
     <main className="App">
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-
       <HomePageSlide />
 
       {state.features ?

@@ -3,7 +3,7 @@ import './CategoryListItem.scss'
 export default function CategoryListItem(props) {
 
   return (
-    <article>
+    <article className="category-item-container">
       <div className='category-image-container'>
         <img src={props.image} />
       </div>

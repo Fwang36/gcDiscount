@@ -1,14 +1,7 @@
-@use './sass/variables';
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans&family=Source+Sans+Pro:wght@300;600&display=swap');
 
 
 $primary-font: 'Josefin Sans', sans-serif;
 $logo-font: 'Source Sans Pro', sans-serif;
-.App {
-  text-align: center;
-}
 
-* {
-  font-family: $primary-font;
-}
-
+$logo-color:rgb(238, 81, 81)

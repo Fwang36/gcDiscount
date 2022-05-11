@@ -2,8 +2,13 @@
 
 $logo-font: 'Josefin Sans', sans-serif;
 
+.navbar {
+  position: fixed;
+  width:100%;
+}
 nav {
   display:flex;
+
   border-style: solid;
   padding-left: 1em;
   position: absolute

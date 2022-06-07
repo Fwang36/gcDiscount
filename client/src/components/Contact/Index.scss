@@ -1,0 +1,50 @@
+.title {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-description-container {
+  display: flex;
+  padding: 2em;
+  margin:2em;
+}
+
+.contact-photo-container {
+  width:100%;
+
+  img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.contact-description-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+.contact-description-text {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  width: 80%;
+  height:100%;
+  padding:2em
+}
+
+.map-info-container {
+  margin: 2em;
+  display: flex;
+  padding: 5em;
+
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  padding:2em;
+  width: 90%;
+  font-size: larger;
+}
